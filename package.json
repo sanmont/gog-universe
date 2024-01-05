@@ -1,0 +1,29 @@
+{
+  "name": "gog-universe",
+  "version": "0.0.1",
+  "description": "Gog galaxy client for universal platforms",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "esbuild src/app.tsx --bundle --outfile=build/app.js"
+  },
+  "keywords": [
+    "gog",
+    "galaxy",
+    "universe",
+    "universal",
+    "linux",
+    "mac",
+    "windows"
+  ],
+  "author": "Santiago Montero",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "esbuild": "0.19.9"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
