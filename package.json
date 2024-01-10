@@ -2,10 +2,11 @@
   "name": "gog-universe",
   "version": "0.0.1",
   "description": "Gog galaxy client for universal platforms",
-  "main": "src/main.js",
+  "main": "main.js",
   "scripts": {
-    "start": "electron .",
-    "build": "esbuild src/app.tsx --bundle --outfile=build/app.js"
+    "build:app": "esbuild src/app/app.tsx --bundle --outdir=build",
+    "build:electron": "esbuild src/electron/main.ts --bundle \"--external:electron\" --loader:.html=file --platform=node --outdir=build ",
+    "build": "npm run build:app & npm run build:electron"
   },
   "keywords": [
     "gog",
