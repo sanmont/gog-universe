@@ -8,9 +8,9 @@ assignees: ''
 
 ---
 
-*** Why
+### Why
 // Whats the reason for adding this  setup/feature
 
-*** How
+### How
 // These are the steps for tackling the issue
 - [ ] Step 1
