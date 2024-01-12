@@ -3,7 +3,7 @@ name: Dev enviroment setup
 about: This is a template for setting up necessary programming tasks to build the
   product
 title: ''
-labels: enhancement
+labels: setup
 assignees: ''
 
 ---
