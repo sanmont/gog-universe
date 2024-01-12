@@ -10,7 +10,7 @@ assignees: ''
 ### Description
 A clear and concise description of what is that we want to do (optional why).
 
-###  Describe alternatives you've considered**
+###  Tasks
 A list of tasks the will resolve the issue
 - [ ] Task 1
 - [ ] Task 2
